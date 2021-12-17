@@ -1,0 +1,53 @@
+.principal {
+  min-height: 600px;
+  padding: 250px;
+  width: 74.3%;
+  background-repeat: no-repeat;
+  background-size: cover;
+  color: #f5f0ed;
+ background-color: black;
+  opacity: 0.8;
+  display: flex;
+  justify-content: flex-end;
+  background-image: url(logo.png);
+  margin-left: -7.8px;
+  margin-top: -10px;
+  background-color: #ffcc99;
+  
+  
+}
+
+#logo {
+  position: absolute;
+    top: 0;
+    left: 0;
+    padding: 10px;
+    width: 80px;
+    height: 80px;
+}
+
+#Lusaac {
+    font-family: Script MT Bold, Script MT;
+    color: #cc6666;
+    font-size: 50px;
+    position: absolute;
+    top: -25px;
+    left: 100px;
+    padding-left: px;
+    margin-right: 0px;
+    padding-right: -10px;
+
+}
+
+.menu{
+  color: white;
+  font-family: Open Sans Extrabold, Arial, Helvetica;
+  font: size 44px;
+  margin-top: -100px;
+  padding-top: -100px;
+  margin-left: 30px;
+  display:flex;
+  
+
+}
+
