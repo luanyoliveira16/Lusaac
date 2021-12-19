@@ -1,89 +1,163 @@
-.principal {
-  min-height: 600px;
-  padding: 250px;
-  width: 74.3%;
-  background-repeat: no-repeat;
-  background-size: cover;
-  color: #f5f0ed;
- background-color: black;
-  opacity: 0.8;
-  display: flex;
-  justify-content: flex-end;
-  background-image: url(logo.png);
-  margin-left: -7.8px;
-  margin-top: -10px;
-  background-color: #ffcc99;
-  
-  
+  *{box-sizing: border-box;
+    
+   
 }
 
-#logo {
-  position: absolute;
-    top: 0;
-    left: 0;
-    padding: 10px;
-    width: 80px;
-    height: 80px;
-}
-
-#Lusaac {
-    font-family: Script MT Bold, Script MT;
-    color: #cc6666;
-    font-size: 50px;
-    position: absolute;
-    top: -25px;
-    left: 100px;
-    padding-left: px;
-    margin-right: 0px;
-    padding-right: -10px;
-
-}
-
-.menu{
-  color: white;
-  font-family: Open Sans Extrabold, Arial, Helvetica;
-  font: size 44px;
-  margin-top: -100px;
-  padding-top: -100px;
-  margin-left: 30px;
-  display:flex;
-
-
-
-}
-
-
-.quadrado1{
-  background-color:#cc6666;
-  width: 958px;
-  height: 550px;
-  margin-left: -1px;
  
-}
-
-
-
-.quadrado2{
-  background-color:#ffcc99;
-  width: 958px;
-  height: 550px;
-  margin-left: 0px;
-  
-  
-}
-
-.dosquadrados{
- width:1902px;
- margin-left: -8px;
- display: flex;
-
-  
+body{
  
+  background-color:#ffffcc;
 }
+ 
+ .principal {
+    width: 1902px;
+    height:900px;
+    background-repeat: no-repeat;
+    background-size: cover;
+    color: #f5f0ed;
+    opacity: 0.8;
+    display: flex;
+    justify-content: flex-end;
+    background-image: url(logo.png);
+    margin-top: -10px;  
+    margin-left: -6px;
 
-#bolo {
+ } 
+
+  #logo {
+    position: relative;
+    width: 60px;
+      margin-left: -0px;
+      margin-top: 10px;
+      margin-left: -1400px;
+      padding-right: -10px;
+  }
+
+  #Lusaac {
+      font-family: Script MT Bold, Script MT;
+      color: #cc6666;
+      font-size: 50px;
+      top: 25px;
+      left: 100px;
+      padding-top: -50px;
+      margin-top: -60px;
+      margin-left: -1340px;
+      padding-right: -10px;
+      
+  }
+
+  .menu{
+    color: white;
+    font-family: Open Sans Extrabold, Arial, Helvetica;
+    font: size 44px;
+    margin-top: 30px;
+    padding-top: -100px;
+    padding-left:-90px;
+    margin-left: 30px;
+    display:flex;
+    
+  }
+
+
+  .quadrado1{
+    background-color:#cc6666;
+    width: 958px;
+    height: 550px;
+    margin-left: -1px; 
+  }
+
+
+  .quadrado2{
+    background-color:#ffcc99;
+    width: 958px;
+    height: 550px;
+    margin-left: 0px;
+  }
+
+  .dosquadrados{
+  width:1902px;
   margin-left: -8px;
-  width: 1902px;
-  opacity: 5px;
+  display: flex;
+  }
+
+  #bolo {
+    width:1902px;
+    margin-left: -8px;
+    opacity: 5px;
+  }
+  
+  .depoisdobolo{
+    background-color: #ffffcc;
+    width: 1902px;
+    height: 600px;
+    margin-left: -8px;
+    margin-top: -10px;
+  }
+
+.rodape {
+    background-color: black;
+    height:100px;
+    margin-left: 13px;
+    color: white;
+    padding-top: 10px;
+    
 }
 
+h5{
+  text-align: center;
+  color:white;
+  padding-top: 10px;
+
+}
+
+#arievilo {
+  color: yellow;
+  padding-top: -20px;
+  float: right;
+  margin-top: -8px;
+
+}
+
+.title {
+  color: #cccccc;
+  font-size: 24px;
+  text-align: center;
+  padding-top: 150px;
+}
+
+.text {
+  color: #cccccc;
+  font-size:20px;
+  text-align: center;
+  padding-top: 50px;
+}
+
+.dentro {
+  width:500px;
+  height: 300px;
+  margin-left: 200px;
+}
+
+.title2 {
+  color:#cc3333;
+  font-size: 24px;
+  text-align: center;
+  padding-top: 150px;
+
+}
+
+.text2 {
+  color: #cc3333;
+  font-size:20px;
+  text-align: center;
+  padding-top: 50px;
+
+}
+
+.tudo {
+  align-items: center;
+  margin-left: auto;
+  margin-right: auto;
+  width: 1902px;
+
+}
