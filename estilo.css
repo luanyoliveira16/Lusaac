@@ -79,12 +79,17 @@ body{
   margin-left: -8px;
   display: flex;
   }
-
-  #bolo {
+  
+  .bolo{
+    background-image: url(bolo\ copiar3.jpg);
+    height: 600px;
     width:1902px;
     margin-left: -8px;
-    opacity: 5px;
+    background-repeat: no-repeat;
+    border: blue solid 5px;
+  
   }
+
   
   .depoisdobolo{
     background-color: #ffffcc;
@@ -92,7 +97,48 @@ body{
     height: 600px;
     margin-left: -8px;
     margin-top: -10px;
+    display: flex;
+    
+
   }
+  .elipse1 {
+    border-radius: 50%;
+    background-color: rgb(210, 57, 60);
+    width: 173px;
+    height: 173px;
+    margin-top: 50px;
+    margin-left: 20px;
+  }
+  
+  .elipse2 {
+    border-radius: 50%;
+    background-color: rgb(210, 57, 60);
+    width: 173px;
+    height: 173px;
+    margin-top: 150px;
+    margin-left:20px;
+  
+  }
+  
+  .elipse3 {
+    border-radius: 50%;
+    background-color: rgb(210, 57, 60);
+    width: 173px;
+    height: 173px;
+    margin-top: -500px;
+    margin-left: 1000px;
+  }
+  
+  .elipse4 {
+    border-radius: 50%;
+    background-color: rgb(210, 57, 60);
+    width: 173px;
+    height: 173px;
+    margin-top: 150px;
+    margin-left: 1000px;
+    
+  }
+  
 
 .rodape {
     background-color: black;
@@ -160,4 +206,9 @@ h5{
   margin-right: auto;
   width: 1902px;
 
+}
+
+.delivery {
+   padding-top: 45px;
+   padding: 38px;
 }
