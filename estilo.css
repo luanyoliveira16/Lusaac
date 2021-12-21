@@ -212,3 +212,25 @@ h5{
    padding-top: 45px;
    padding: 38px;
 }
+
+.venhaconhecer{
+  font-size: 44px;
+  font-family: Open sans Extrabold;
+  color: white;
+  padding-top: 40px;
+  text-align: center;
+}
+
+.textobolo {
+  font-size: 24px;
+  font-family: Open sans regular;
+  color: white;
+  text-align: center;
+}
+
+.titulodosicones {
+  font-size: 18px;
+  font-family: Open sans Extrabold;
+  color: #333333;
+   
+}
