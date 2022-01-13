@@ -19,20 +19,23 @@ body{
     background-image: url(logo.png);
     margin-top: -10px;  
     margin-left: -8px;
-    border: blue solid 5px;
     display: flex;
     justify-content: flex-end;
-   
+    align-items: center;
 
  } 
 
   #logo {
     
-    width: 60px;
+      width: 60px;
       margin-left: -0px;
       margin-top: 10px;
-      margin-left: -800px;
+      margin-left: -1150px;
       padding-right: -10px;
+  }
+
+  .inicio:hover {
+    width: 90px;
   }
 
   #Lusaac {
@@ -43,27 +46,30 @@ body{
       left: 100px;
       padding-top: -50px;
       margin-top: -60px;
-      margin-left: -1340px;
+      margin-left: -1310px;
       padding-right: -10px;
+      
       
       
   }
 
   .inicio {
-    display: inline-block;
+    width: 100px;
+    margin-top: -700px;
+    margin-left: 50px;
   }
 
-  .menu{
+
+  a{
     color: white;
     font-family: Open Sans Extrabold, Arial, Helvetica;
-    font: size 44px;
-    margin-top: 30px;
-  
-    margin-left: 20px;
-    display:flex;
-    padding: -50px;
+    margin: 20px;
+    margin-top: -700px;
     
-    
+  }
+
+  a:hover {
+    color: #333333;
   }
 
 
@@ -95,8 +101,17 @@ body{
     width:1902px;
     margin-left: -8px;
     background-repeat: no-repeat;
-   
-  
+    align-items: center;
+  }
+
+  .emcimadobolo {
+    width:700px;
+    height: 300px;
+    margin-left: auto;
+    text-align: center;
+    margin-right: auto;
+    margin-top: 40px;
+    
   }
 
   
@@ -226,11 +241,12 @@ h5{
 }
 
 .venhaconhecer{
-  font-size: 44px;
   font-family: Open sans Extrabold;
   color: white;
-  padding-top: 40px;
+  
   text-align: center;
+  font-size: 40px;
+  margin-top: 40px;
 }
 
 .textobolo {
@@ -241,17 +257,17 @@ h5{
 }
 
 #produtosfrescos {
-  font-size: 23px;
+  font-size: 20px;
   font-family: Open sans Extrabold;
   color: #333333;
-  margin-left: -950px;
-  margin-top: 80px;
+  margin-top: -150px;
+  margin-left: 200px;
    
 }
 
 #textoprodutosfrescos {
 
-  font-size: 18px;
+  font-size: 15px;
   font-family: Open sans Extrabold;
   color: #333333;
   margin-top: 200px;
@@ -263,4 +279,114 @@ h5{
   width: 600px;
   height: 500px;
   border: blue solid 5px;
+}
+
+.somos {
+  color: #333333;
+  font-size: 30px;
+  font-family: Open sans Extrabold;
+  margin-top:80px;
+  
+
+
+}
+
+#espaçoprodutosfrescos {
+  width: 50x;
+  margin-top: 20px;
+  
+
+}
+
+#espaço1 {
+  width: 600px;
+  margin-top: -250px;
+  margin-left: 200px;
+}
+#tempo {
+
+  font-size: 20px;
+  font-family: Open sans Extrabold;
+  color: #333333;
+  margin-top: -150px;
+  margin-left: 200px;
+
+}
+
+#textotempo {
+  font-size: 15px;
+  font-family: Open sans Extrabold;
+  color: #333333;
+  margin-top: 200px;
+  text-align: center;
+
+}
+
+#espaçotempo {
+  width: 50x;
+  margin-top: 90px;
+
+}
+
+#espaço2 {
+  width: 600px;
+  margin-top: -180px;
+  margin-left: 200px;
+}
+
+#produtosorganicos {
+  font-size: 20px;
+  font-family: Open sans Extrabold;
+  color: #333333;
+  margin-top: -135px;
+  margin-left: 200px;
+}
+
+
+#textoprodutosorganicos {
+
+  font-size: 15px;
+  font-family: Open sans Extrabold;
+  color: #333333;
+  margin-top: 150px;
+  text-align: center;
+
+}
+
+#espaço3 {
+
+  width: 600px;
+  margin-top: -150px;
+  margin-left: 200px;
+
+}
+
+#delivery {
+
+  font-size: 20px;
+  font-family: Open sans Extrabold;
+  color: #333333;
+  margin-top: -150px;
+  margin-left: 200px;
+
+
+}
+
+#textodelivery {
+
+  font-size: 15px;
+  font-family: Open sans Extrabold;
+  color: #333333;
+  margin-top: 20px;
+  text-align: center;
+  margin-left: 70px;
+
+}
+
+#espaço4 {
+
+  width: 600px;
+  margin-top: 30px;
+  margin-left: 130px;
+
 }
