@@ -235,9 +235,11 @@ h5{
 
 }
 
-.delivery {
+.iconezinhos {
+
    padding-top: 45px;
    padding: 38px;
+   
 }
 
 .venhaconhecer{
@@ -257,6 +259,7 @@ h5{
 }
 
 #produtosfrescos {
+
   font-size: 20px;
   font-family: Open sans Extrabold;
   color: #333333;
@@ -308,7 +311,7 @@ h5{
   font-size: 20px;
   font-family: Open sans Extrabold;
   color: #333333;
-  margin-top: -150px;
+  margin-top: -230px;
   margin-left: 200px;
 
 }
@@ -389,4 +392,31 @@ h5{
   margin-top: 30px;
   margin-left: 130px;
 
+}
+
+#entreemcontato {
+
+  font-family: Open sans Extrabold;
+  color: #cc6666;
+  font-size: 24px;
+  text-align: center;
+  padding-top: 150px;
+
+}
+
+.redessociais {
+
+width: 50px;
+height: 50px;
+margin-top: 30px;
+margin-left:150px;
+margin-right: auto;
+
+}
+
+.arrobaesite {
+  color: #cccccc;
+  margin-top: -40px;
+  margin-left: 250px;
+  font-size: 20px;
 }
