@@ -16,7 +16,7 @@ body{
     background-size: cover;
     color: #f5f0ed;
     opacity: 0.8;
-    background-image: url(logo.png);
+    background-image: url(imagens/logo.png);
     margin-top: -10px;  
     margin-left: -8px;
     display: flex;
@@ -96,7 +96,7 @@ body{
   }
   
   .bolo{
-    background-image: url(bolo\ copiar3.jpg);
+    background-image: url(imagens/bolo\ copiar3.jpg);
     height: 600px;
     width:1902px;
     margin-left: -8px;
@@ -105,7 +105,7 @@ body{
   }
 
   .emcimadobolo {
-    width:700px;
+    width:1500px;
     height: 300px;
     margin-left: auto;
     text-align: center;
@@ -183,14 +183,6 @@ h5{
 
 }
 
-#arievilo {
-  color: yellow;
-  padding-top: -20px;
-  float: right;
-  margin-top: -8px;
-
-}
-
 .title {
   color: #cccccc;
   font-size: 24px;
@@ -238,7 +230,7 @@ h5{
 .iconezinhos {
 
    padding-top: 45px;
-   padding: 38px;
+   padding: 42px;
    
 }
 
@@ -248,7 +240,7 @@ h5{
   
   text-align: center;
   font-size: 40px;
-  margin-top: 40px;
+  padding-top: 50px;
 }
 
 .textobolo {
@@ -263,7 +255,7 @@ h5{
   font-size: 20px;
   font-family: Open sans Extrabold;
   color: #333333;
-  margin-top: -150px;
+  margin-top: -160px;
   margin-left: 200px;
    
 }
@@ -273,25 +265,29 @@ h5{
   font-size: 15px;
   font-family: Open sans Extrabold;
   color: #333333;
-  margin-top: 200px;
-  text-align: center;
+  margin-top: 205px;
+  
 
 }
 
-#textodosprodutos {
-  width: 600px;
-  height: 500px;
-  border: blue solid 5px;
-}
 
 .somos {
-  color: #333333;
+  color: #f5f0ed;
   font-size: 30px;
-  font-family: Open sans Extrabold;
-  margin-top:80px;
+  font-family: Open sans;
+  margin-top:100px;
+  padding-bottom: 40px;
   
 
 
+}
+
+.confira {
+  
+  color: white;
+  margin-left: auto;
+  margin-right: auto;
+  
 }
 
 #espaçoprodutosfrescos {
@@ -303,8 +299,9 @@ h5{
 
 #espaço1 {
   width: 600px;
-  margin-top: -250px;
+  margin-top: -230px;
   margin-left: 200px;
+  
 }
 #tempo {
 
@@ -320,8 +317,8 @@ h5{
   font-size: 15px;
   font-family: Open sans Extrabold;
   color: #333333;
-  margin-top: 200px;
-  text-align: center;
+  margin-top: 190px;
+ 
 
 }
 
@@ -343,6 +340,7 @@ h5{
   color: #333333;
   margin-top: -135px;
   margin-left: 200px;
+  
 }
 
 
@@ -351,8 +349,8 @@ h5{
   font-size: 15px;
   font-family: Open sans Extrabold;
   color: #333333;
-  margin-top: 150px;
-  text-align: center;
+  margin-top: 160px;
+  
 
 }
 
@@ -371,6 +369,7 @@ h5{
   color: #333333;
   margin-top: -150px;
   margin-left: 200px;
+  
 
 
 }
@@ -381,7 +380,6 @@ h5{
   font-family: Open sans Extrabold;
   color: #333333;
   margin-top: 20px;
-  text-align: center;
   margin-left: 70px;
 
 }
@@ -420,3 +418,24 @@ margin-right: auto;
   margin-left: 250px;
   font-size: 20px;
 }
+
+.ajustarotamanho {
+  width: 150px;
+}
+
+.borda {
+
+    border-width: 3px;
+    border-color: rgb(245, 240, 237);
+    border-style: solid;
+    display:flex;
+    align-items: center;
+    left: 505px;
+    top: 1573px;
+    width: 276px;
+    height: 42px;
+    margin-left: auto;
+    margin-right: auto;
+   
+  }
+  
